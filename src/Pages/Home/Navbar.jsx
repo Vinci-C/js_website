@@ -40,5 +40,4 @@ return (
     </nav>
 );
 }
-
 export default Navbar;
