@@ -12,6 +12,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="*" element={<div>404 not found</div>} />
           </Routes>
         </div>
       </Router>
