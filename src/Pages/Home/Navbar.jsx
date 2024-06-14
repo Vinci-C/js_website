@@ -48,10 +48,75 @@ function Navbar() {
       <div className={`navba--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <Link onClick={closeMenu}> Home </Link>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="heroSection"
+              className="navbar--content"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="AboutMe"
+              className="navbar--content"
+            >
+              About Me
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Testimonials"
+              className="navbar--content"
+            >
+              Testimonials
+            </Link>
           </li>
         </ul>
       </div>
+      <Link
+        onClick={closeMenu}
+        activeClass="navbar--active-content"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="Contact"
+        className="btn btn-outline-primary"
+      >
+        Contat Me
+      </Link>
     </nav>
   );
 }
