@@ -45,7 +45,7 @@ function Navbar() {
         <span className="nav__hamburger__line"> </span>
         <span className="nav__hamburger__line"> </span>
       </a>
-      <div className={`navba--items ${navActive ? "active" : ""}`}>
+      <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
             <Link
@@ -115,7 +115,7 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-        Contat Me
+        Contact Me
       </Link>
     </nav>
   );
