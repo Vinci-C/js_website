@@ -9,8 +9,8 @@ export default function Home() {
       {" "}
       {/*fragments*/}
       <HeroSection />
-      <MySkills />
       <AboutMe />
+      <MySkills />
       <MyPortfolio />
     </>
   );
