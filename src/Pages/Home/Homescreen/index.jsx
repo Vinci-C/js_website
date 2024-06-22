@@ -2,6 +2,7 @@ import HeroSection from "../HeroSection";
 import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio.jsx";
+import ContactMe from "../ContactMe";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutMe />
       <MySkills />
       <MyPortfolio />
+      <ContactMe />
     </>
   );
 }
