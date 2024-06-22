@@ -1,3 +1,5 @@
+import reCAPTCHA from "react-google-recaptcha";
+
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
@@ -52,15 +54,10 @@ export default function ContactMe() {
             required
           />
         </label>
-        <label htmlFor="checkbox" className="checkbox--label">
-          <input
-            type="checkbox"
-            className="checkbox--input"
-            id="checkbox"
-            required
-          />
-          <span className="checkbox--text">Agree</span>
-        </label>
+        <label htmlFor="name">Name</label>
+        <input type="text" id="name" className="input" />
+        <reCAPTCHA />
+        <button>Submit</button>
       </form>
     </section>
   );
