@@ -1,4 +1,4 @@
-import reCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function ContactMe() {
   return (
@@ -49,15 +49,15 @@ export default function ContactMe() {
           <input
             className="contact--input text-md"
             id="message"
-            rows="8"
+            rows="5"
             placeholder="Type your message here..."
             required
           />
         </label>
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" className="input" />
-        <reCAPTCHA />
-        <button>Submit</button>
+        <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY} />
+        <div>
+          <button className="btn btn-primary contact--form--btn">Submit</button>
+        </div>
       </form>
     </section>
   );
