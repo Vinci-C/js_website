@@ -3,6 +3,7 @@ import MySkills from "../MySkills";
 import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio.jsx";
 import ContactMe from "../ContactMe";
+import Footer from "../Footer.jsx";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <MySkills />
       <MyPortfolio />
       <ContactMe />
+      <Footer />
     </>
   );
 }
