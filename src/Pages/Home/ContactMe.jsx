@@ -46,7 +46,7 @@ export default function ContactMe() {
         </div>
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
-          <input
+          <textarea
             className="contact--input text-md"
             id="message"
             rows="5"
@@ -54,7 +54,7 @@ export default function ContactMe() {
             required
           />
         </label>
-        <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY} />
+        {/* <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY} /> */}
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
