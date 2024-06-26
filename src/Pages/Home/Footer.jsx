@@ -30,19 +30,6 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
                 to="AboutMe"
                 className="text-md"
               >
@@ -56,10 +43,23 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="MySkills"
                 className="text-md"
               >
-                Contact
+                MySkills
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Portfolio"
+                className="text-md"
+              >
+                Portfolio
               </Link>
             </li>
           </ul>
@@ -68,7 +68,7 @@ function Footer() {
       <hr className="divider" />
       <div className="footer--content--container">
         <p className="footer--content">Made with 💖 by Vinci</p>
-        <div className="footer--social--icon">
+        {/* <div className="footer--social--icon">
           <ul>
             <li>
               <Link
@@ -110,7 +110,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
