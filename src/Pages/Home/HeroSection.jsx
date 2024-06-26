@@ -14,8 +14,8 @@ export default function HeroSection() {
             <br />
             Reiciendis totam nostrum adipisci corrupti? Quae!
           </p>
+          <button className="btn btn-primary">Get in Touch</button>
         </div>
-        <button className="btn btn-primary">Get in Touch</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.png" alt="HeroSection" />
