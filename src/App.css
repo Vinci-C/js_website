@@ -1,4 +1,7 @@
 /* global css*/
+a:link {
+  text-decoration: none;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -335,7 +338,7 @@ skills--section--description {
 }
 .portfolio--container-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
@@ -347,8 +350,9 @@ skills--section--description {
 }
 .portfolio--section--container {
   display: flex;
-  flex-direction: center;
   align-items: flex-start;
+  flex-direction: center;
+  justify-content: center;
   width: 100%;
   gap: 42.6px;
 }
