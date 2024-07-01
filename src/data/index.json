@@ -28,7 +28,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/UKRI_IRIS.png",
+      "src": "../public/img/UKRI_IRIS.png",
       "title": "UKRI: Deploying Cloud VM",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
       "link": "View on GitHub",
@@ -36,7 +36,7 @@
     },
     {
       "id": "2",
-      "src": "./img/DB_TEMP.png",
+      "src": "../public/img/DB_TEMP.png",
       "title": "Hack Club Winter of Making: LED Train Departure Board",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
       "link": "View on GitHub",
@@ -44,7 +44,7 @@
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "../public/img/feather-pen-2.png",
       "title": "UI & UX Design",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
       "link": "View on GitHub"
