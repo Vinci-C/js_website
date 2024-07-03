@@ -1,4 +1,4 @@
-import data from "../../data/index.json";
+import { portfolio } from "../../data/portfolio";
 
 export default function MyPortfolio() {
   return (
@@ -33,7 +33,7 @@ export default function MyPortfolio() {
         </div>
       </div>
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
+        {portfolio.portfolio.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
