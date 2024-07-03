@@ -1,8 +1,7 @@
 {
-  "name": "js_website",
+  "name": "my_website",
   "version": "0.1.0",
-  "homepage": "https://vinci-c.github.io/js-website",
-  "proxy": "http://localhost:3000",
+  "homepage": "https://vinci-c.github.io/js_website",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -18,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
