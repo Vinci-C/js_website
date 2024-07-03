@@ -1,7 +1,8 @@
 {
-  "name": "my_website",
+  "name": "Vinci_Website",
   "version": "0.1.0",
-  "homepage": "https://vinci-c.github.io/js_website",
+  "homepage": "https://vinci-c.github.io/home",
+  "proxy": "http://localhost:3000",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
