@@ -21,6 +21,7 @@ function Navbar() {
 
     window.addEventListener("resize", handleResize);
 
+    // cleanup function
     return () => {
       window.removeEventListener("resize", handleResize);
     };
