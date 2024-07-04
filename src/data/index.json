@@ -1,0 +1,53 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "../../assets/img/UKRI_IRIS.png",
+      "title": "UKRI: Deploying Cloud VM",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+      "link": "View on GitHub",
+      "github_url": "https://github.com/stfc/SCD-OpenStack-Utils/tree/master/grafana_monitoring"
+    },
+    {
+      "id": "2",
+      "src": "../../assets/img/DB_TEMP.png",
+      "title": "Hack Club Winter of Making: LED Train Departure Board",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+      "link": "View on GitHub",
+      "github_url": "https://github.com/hackclub/winter/blob/main/pikca-c.md"
+    },
+    {
+      "id": "3",
+      "src": "../../assets/img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+      "link": "View on GitHub"
+    }
+  ]
+}
