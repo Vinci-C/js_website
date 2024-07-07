@@ -11,7 +11,7 @@ function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/js_website" element={<Home />} />
             <Route path="*" element={<div>404 not found</div>} />
           </Routes>
         </div>

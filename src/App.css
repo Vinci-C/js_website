@@ -201,7 +201,7 @@ h3 {
   gap: 32px;
   background-color: var(--bg-shade);
 }
-.hero--section--content--box {
+.hero--section--content-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -317,7 +317,7 @@ skills--section--description {
 /* About Me */
 .about--section {
   display: grid;
-  padding: 133.3ox 85.3px;
+  padding: 133.3px 85.3px;
   align-items: center;
   gap: 144.6px;
   grid-template-columns: repeat(2, 1fr);

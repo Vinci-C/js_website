@@ -1,7 +1,7 @@
 {
   "name": "Vinci_Website",
   "version": "0.1.0",
-  "homepage": "https://vinci-c.github.io/home",
+  "homepage": "https://vinci-c.github.io/js_website",
   "proxy": "http://localhost:3000",
   "private": false,
   "dependencies": {
@@ -12,13 +12,13 @@
     "react-dom": "^18.3.1",
     "react-google-recaptcha": "^3.1.0",
     "react-router-dom": "^6.24.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
