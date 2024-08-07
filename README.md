@@ -4,4 +4,4 @@ Edits are still in progress!
 
 ## Known bugs
 
-Navigation bar occasionally breaks - fixing
+Navigation bar occasionally breaks - fixed
