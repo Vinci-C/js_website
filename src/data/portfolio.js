@@ -6,7 +6,7 @@ export const portfolio = {
       src: require("../assets/img/UKRI_IRIS.png"),
       title: "UKRI: Deploying Cloud VM",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+        "Work done during 1 week work experience at STFC Rutherford Appleton Laboratory, see github link for more information. ",
       link: "View on GitHub",
       github_url:
         "https://github.com/stfc/SCD-OpenStack-Utils/tree/master/grafana_monitoring",

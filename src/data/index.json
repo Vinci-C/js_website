@@ -2,8 +2,8 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
+      "src": "../assets/img/CS50P.jpg",
+      "title": "Python",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate"
     },
     {
@@ -30,7 +30,7 @@
       "id": "1",
       "src": "../../assets/img/UKRI_IRIS.png",
       "title": "UKRI: Deploying Cloud VM",
-      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+      "description": "Work done during 1 week work experience at STFC Rutherford Appleton Laboratory, see github link for more information.",
       "link": "View on GitHub",
       "github_url": "https://github.com/stfc/SCD-OpenStack-Utils/tree/master/grafana_monitoring"
     },
