@@ -2,7 +2,7 @@
   "skills": [
     {
       "id": "1",
-      "src": "../assets/img/CS50P.jpg",
+      "src": "/CS50P.jpg",
       "title": "Python",
       "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate"
     },

@@ -32,4 +32,34 @@ export const portfolio = {
       link: "View on GitHub",
     },
   ],
+  skills: [
+    {
+      id: "1",
+      src: require("../assets/img/CS50P.jpg"),
+      title: "Python",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+    },
+    {
+      id: "2",
+      src: "./img/tag-1.png",
+      title: "Back-End",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+    },
+    {
+      id: "3",
+      src: "./img/feather-pen-2.png",
+      title: "UI & UX Design",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+    },
+    {
+      id: "4",
+      src: "./img/feather-pen-1.png",
+      title: "Webflow Development",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+    },
+  ],
 };
