@@ -25,11 +25,12 @@ export const portfolio = {
       // below is not found, please fix
       //   src: require("../assets/img/feather-pen-2.png"),
 
-      src: require("../assets/img/DB_TEMP.png"),
-      title: "UI & UX Design",
+      src: require("../assets/img/wintech.png"),
+      title: "Website for the Blind - WinTech",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
-      link: "View on GitHub",
+        "A website for a company that is committed to providing blind and low-vision people with various assistive devices needed for work, study and life. This is the company website",
+      link: "View completed website",
+      github_url: "https://wintech-f75b7.web.app/",
     },
   ],
   skills: [
@@ -38,7 +39,7 @@ export const portfolio = {
       src: require("../assets/img/CS50P.jpg"),
       title: "Python",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+        "An introduction to programming using Python. More information can be found on the CS50P website",
     },
     {
       id: "2",
