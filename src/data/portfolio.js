@@ -44,9 +44,9 @@ export const portfolio = {
     {
       id: "2",
       src: "./img/tag-1.png",
-      title: "Back-End",
+      title: "React JS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse varius eim in vulputate",
+        "This website is built using React, which combines javascript, typescript and CSS",
     },
     {
       id: "3",
