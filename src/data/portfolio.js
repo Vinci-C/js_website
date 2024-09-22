@@ -43,7 +43,7 @@ export const portfolio = {
     },
     {
       id: "2",
-      src: "./img/tag-1.png",
+      src: require("../assets/img/react.png"),
       title: "React JS",
       description:
         "This website is built using React, which combines javascript, typescript and CSS",
